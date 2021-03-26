@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.div1{
+    /* background-image: url(chrome_BGnv5rv8V3.png);
+    background-image:image-set("right") ;
+    height: 1000px;
+    width: 120%;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    /* float: left; */
+}
+.div2{
+    background-image: url(chrome_BGnv5rv8V3.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    float: left;
+    height:650px ;
+    width: 100%;
+    position: relative;
+}
+.div2 img{
+    height: 100%;
+}
+header{
+    /* background-color: red; */
+    
+    height: 50px;
+    width: 80%;
+    position: fixed;
+    float: right;
+}
+header ul li{
+    margin-right: 10px;
+    float: left;
+    margin-left: 50px;
+    list-style-type: none;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: brown;
+}
+.div3{
+    text-align: center;
+    
+    /* background-color: red; */
+    margin-top: 220px;
+    color: white;
+
+}
+
+.div5{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+
+   
+    
+    
+}
+.div6{
+    color: white;
+
+    text-align: center;
+    margin-top:10px;
+    font-size: 120%;
+    width: 550px;
+    margin: auto;
+    opacity: 0.8;
+
+    
+}
+.div5 h1{
+    font-size: 350%;
+}
+.div7{
+    /* background-color: violet; */
+    width: 50px;
+    margin: auto;
+    height: 100px;
+    margin-top: 40px;
+    border-top-left-radius:40% ;
+    border-top-right-radius:40% ;
+    border-bottom-left-radius:40% ;
+    border-bottom-right-radius:40% ;
+    border: 1px solid white;
+}
+.div8{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    text-align: center;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    animation-name: an;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes an{
+    0%{
+        
+        
+    }
+    100%{
+        margin-top: 50px;
+    }
+}
+.div9{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+.div10{
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin: auto;
+
+}
+.div11{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(185, 9, 9); */
+    float: left;
+    text-align: center;
+    margin: auto;
+    margin-left: 200px;
+
+}
+.div10 img{
+    width: 100%;
+    height: 100%;
+}
+.div12{
+text-align: left;
+}
